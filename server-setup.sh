@@ -10,7 +10,7 @@ then
 fi
 
 echo "Installing git/subversion"
-sudo apt-get install git subversion
+sudo apt-get install git git-gui subversion
 
 echo "Configurating git"
 sudo git config --global user.name "$1"
